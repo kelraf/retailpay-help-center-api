@@ -1,0 +1,24 @@
+{
+  "connection": "default",
+  "collectionName": "contents",
+  "info": {
+    "name": "feedbackquestions",
+    "description": "Contains Questions Posted to the Users So that They Can give feedback "
+  },
+  "options": {
+    "increments": true,
+    "timestamps": [
+      "created_at",
+      "updated_at"
+    ],
+    "comment": ""
+  },
+  "attributes": {
+    "reason": {
+      "type": "string"
+    },
+    "question": {
+      "type": "string"
+    }
+  }
+}

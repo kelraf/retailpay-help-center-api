@@ -1,0 +1,52 @@
+{
+  "routes": [
+    {
+      "method": "GET",
+      "path": "/sidenavs",
+      "handler": "Sidenav.find",
+      "config": {
+        "policies": []
+      }
+    },
+    {
+      "method": "GET",
+      "path": "/sidenavs/count",
+      "handler": "Sidenav.count",
+      "config": {
+        "policies": []
+      }
+    },
+    {
+      "method": "GET",
+      "path": "/sidenavs/:id",
+      "handler": "Sidenav.findOne",
+      "config": {
+        "policies": []
+      }
+    },
+    {
+      "method": "POST",
+      "path": "/sidenavs",
+      "handler": "Sidenav.create",
+      "config": {
+        "policies": []
+      }
+    },
+    {
+      "method": "PUT",
+      "path": "/sidenavs/:id",
+      "handler": "Sidenav.update",
+      "config": {
+        "policies": []
+      }
+    },
+    {
+      "method": "DELETE",
+      "path": "/sidenavs/:id",
+      "handler": "Sidenav.delete",
+      "config": {
+        "policies": []
+      }
+    }
+  ]
+}

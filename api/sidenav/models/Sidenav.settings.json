@@ -1,0 +1,30 @@
+{
+  "connection": "default",
+  "collectionName": "subpages",
+  "info": {
+    "name": "sidenav",
+    "description": "List of sidenav"
+  },
+  "options": {
+    "increments": true,
+    "timestamps": [
+      "created_at",
+      "updated_at"
+    ],
+    "comment": ""
+  },
+  "attributes": {
+    "name": {
+      "type": "string"
+    },
+    "description": {
+      "type": "string"
+    },
+    "pages": {
+      "model": "pages"
+    },
+    "subheadings": {
+      "collection": "subheadings"
+    }
+  }
+}

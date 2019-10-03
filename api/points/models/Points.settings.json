@@ -1,0 +1,18 @@
+{
+  "connection": "default",
+  "collectionName": "points",
+  "info": {
+    "name": "points",
+    "description": ""
+  },
+  "options": {
+    "increments": true,
+    "timestamps": true,
+    "comment": ""
+  },
+  "attributes": {
+    "point": {
+      "type": "string"
+    }
+  }
+}

@@ -1,0 +1,27 @@
+{
+  "connection": "default",
+  "collectionName": "feedbacks",
+  "info": {
+    "name": "feedbacks",
+    "description": ""
+  },
+  "options": {
+    "increments": true,
+    "timestamps": true,
+    "comment": ""
+  },
+  "attributes": {
+    "general": {
+      "type": "string"
+    },
+    "reason": {
+      "type": "string"
+    },
+    "question": {
+      "type": "string"
+    },
+    "answer": {
+      "type": "string"
+    }
+  }
+}

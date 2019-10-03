@@ -1,0 +1,27 @@
+{
+  "connection": "default",
+  "collectionName": "headings",
+  "info": {
+    "name": "mainnav",
+    "description": "list of navigation"
+  },
+  "options": {
+    "increments": true,
+    "timestamps": [
+      "created_at",
+      "updated_at"
+    ],
+    "comment": ""
+  },
+  "attributes": {
+    "name": {
+      "type": "string"
+    },
+    "description": {
+      "type": "string"
+    },
+    "sidenavs": {
+      "collection": "sidenav"
+    }
+  }
+}
