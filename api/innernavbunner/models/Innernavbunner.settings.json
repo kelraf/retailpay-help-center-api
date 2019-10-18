@@ -1,0 +1,29 @@
+{
+  "connection": "default",
+  "collectionName": "innernavbunners",
+  "info": {
+    "name": "innernavbunner",
+    "description": ""
+  },
+  "options": {
+    "increments": true,
+    "timestamps": [
+      "created_at",
+      "updated_at"
+    ],
+    "comment": ""
+  },
+  "attributes": {
+    "image": {
+      "model": "file",
+      "via": "related",
+      "plugin": "upload"
+    },
+    "textaside": {
+      "type": "richtext"
+    },
+    "belongs_to": {
+      "type": "string"
+    }
+  }
+}

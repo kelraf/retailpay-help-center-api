@@ -1,0 +1,22 @@
+{
+  "info": {
+    "name": "sidenavigation",
+    "description": ""
+  },
+  "connection": "default",
+  "collectionName": "groups_sidenavigations",
+  "attributes": {
+    "name": {
+      "type": "string"
+    },
+    "description": {
+      "type": "richtext"
+    },
+    "sidnavchildren": {
+      "collection": "sidnavchild"
+    },
+    "content": {
+      "model": "content"
+    }
+  }
+}

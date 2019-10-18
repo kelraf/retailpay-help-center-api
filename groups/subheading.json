@@ -1,0 +1,16 @@
+{
+  "info": {
+    "name": "subheading",
+    "description": ""
+  },
+  "connection": "default",
+  "collectionName": "groups_subheadings",
+  "attributes": {
+    "name": {
+      "type": "string"
+    },
+    "description": {
+      "type": "richtext"
+    }
+  }
+}

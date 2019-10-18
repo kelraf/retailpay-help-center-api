@@ -1,9 +1,9 @@
 {
   "connection": "default",
-  "collectionName": "subpages",
+  "collectionName": "feedbacks",
   "info": {
-    "name": "sidenav",
-    "description": "List of sidenav"
+    "name": "feedback",
+    "description": ""
   },
   "options": {
     "increments": true,
@@ -14,17 +14,17 @@
     "comment": ""
   },
   "attributes": {
-    "name": {
+    "general": {
       "type": "string"
     },
-    "description": {
+    "reason": {
       "type": "string"
     },
-    "subheadings": {
-      "collection": "sidnavchild"
+    "question": {
+      "type": "string"
     },
-    "pages": {
-      "model": "content"
+    "answer": {
+      "type": "string"
     }
   }
 }

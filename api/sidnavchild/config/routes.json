@@ -1,0 +1,52 @@
+{
+  "routes": [
+    {
+      "method": "GET",
+      "path": "/sidnavchildren",
+      "handler": "Sidnavchild.find",
+      "config": {
+        "policies": []
+      }
+    },
+    {
+      "method": "GET",
+      "path": "/sidnavchildren/count",
+      "handler": "Sidnavchild.count",
+      "config": {
+        "policies": []
+      }
+    },
+    {
+      "method": "GET",
+      "path": "/sidnavchildren/:id",
+      "handler": "Sidnavchild.findOne",
+      "config": {
+        "policies": []
+      }
+    },
+    {
+      "method": "POST",
+      "path": "/sidnavchildren",
+      "handler": "Sidnavchild.create",
+      "config": {
+        "policies": []
+      }
+    },
+    {
+      "method": "PUT",
+      "path": "/sidnavchildren/:id",
+      "handler": "Sidnavchild.update",
+      "config": {
+        "policies": []
+      }
+    },
+    {
+      "method": "DELETE",
+      "path": "/sidnavchildren/:id",
+      "handler": "Sidnavchild.delete",
+      "config": {
+        "policies": []
+      }
+    }
+  ]
+}

@@ -1,0 +1,19 @@
+{
+  "info": {
+    "name": "sitebunner",
+    "description": ""
+  },
+  "connection": "default",
+  "collectionName": "groups_sitebunners",
+  "attributes": {
+    "image": {
+      "model": "file",
+      "via": "related",
+      "plugin": "upload",
+      "required": false
+    },
+    "overlaytext": {
+      "type": "richtext"
+    }
+  }
+}

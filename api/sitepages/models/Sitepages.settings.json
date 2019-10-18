@@ -1,0 +1,34 @@
+{
+  "connection": "default",
+  "collectionName": "sitepages",
+  "info": {
+    "name": "sitepages",
+    "description": ""
+  },
+  "options": {
+    "increments": true,
+    "timestamps": [
+      "created_at",
+      "updated_at"
+    ],
+    "comment": ""
+  },
+  "attributes": {
+    "name": {
+      "required": true,
+      "type": "string"
+    },
+    "description": {
+      "type": "richtext"
+    },
+    "bunner": {
+      "group": "sitebunner",
+      "type": "group"
+    },
+    "innernavs": {
+      "group": "innernavs",
+      "type": "group",
+      "repeatable": true
+    }
+  }
+}

@@ -1,0 +1,22 @@
+{
+  "info": {
+    "name": "innernavs",
+    "description": ""
+  },
+  "connection": "default",
+  "collectionName": "groups_siteinnernavs",
+  "attributes": {
+    "name": {
+      "type": "string"
+    },
+    "heading": {
+      "type": "string"
+    },
+    "content": {
+      "type": "richtext"
+    },
+    "innernavbunner": {
+      "model": "innernavbunner"
+    }
+  }
+}
